@@ -1,6 +1,15 @@
-Create an egg timer using TDD in React and Redux. These are the features in order of priority:
+# Egg timer in react
 
-- Count down from 8 minutes to 0
-- Make the text blink once egg is cooked
-- Add button to reset the timer back to 8:00
-- Add button to start timer from 4:00 (soft cooked)
+Create an egg timer using React (and Redux, if needed). This is an overview of the features, devided over some sprints. Using a TDD cycle is allowed but not mandatory.
+
+## Sprint 1
+- Hard cooked egg.
+  - Count down from `8:00` minutes to `0:00`.
+  - Triggered by clicking on a button.
+- Make the text `0:00` blink once the egg is cooked.
+
+## Sprint 2
+
+- Soft cooked egg.
+  - Add a new option to count down from `4:00` minutes to `0:00`.
+- Restart the timer.
